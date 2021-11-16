@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10110010001" textdirection="ltr" textengine="Uniscribe" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10110010001" font="Open Sans" controllayout="npnxnanbsnfns10110010001" colorscheme="npnxnanbnsnfns10110010001" string_table="npnxnanbnsnfns10110010001" />
+    <layout name="pxabnsnfns10110010001" font="Open Sans" controllayout="pxabnsnfns10110010001" colorscheme="npnxnanbnsnfns10110010001" string_table="npnxnanbnsnfns10110010001" />
+    <layout name="npxnabnsnfns10110010001" font="Open Sans" controllayout="npxnabnsnfns10110010001" colorscheme="npnxnanbnsnfns10110010001" string_table="npnxnanbnsnfns10110010001" />
+    <layout name="npnxnanbnsnfns10110010001" font="Open Sans" controllayout="npnxnanbnsnfns10110010001" colorscheme="npnxnanbnsnfns10110010001" string_table="npnxnanbnsnfns10110010001" />
+    <layout name="pxabnsnfns10110010000" font="Open Sans" controllayout="pxabnsnfns10110010000" colorscheme="npnxnanbnsnfns10110010001" string_table="npnxnanbnsnfns10110010001" />
+    <layout name="pnxanbsnfns10110010001" font="Open Sans" controllayout="pnxanbsnfns10110010001" colorscheme="npnxnanbnsnfns10110010001" string_table="npnxnanbnsnfns10110010001" />
+    <layout name="pnxanbnsnfns10110010001" font="Open Sans" controllayout="pnxanbnsnfns10110010001" colorscheme="npnxnanbnsnfns10110010001" string_table="npnxnanbnsnfns10110010001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Intrusion Detection Alarm System 101" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="glossary" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="settings" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10110010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10110010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10110010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10110010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10110010000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbsnfns10110010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns10110010001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns10110010001">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCCCCCC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2A2A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x878787" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x363636" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x525454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1A1A1A" alpha="100" stop="0" />
+                <color rgb="0x313131" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEB9471" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+                <color rgb="0x161616" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x595959" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+                <color rgb="0x4A4A4A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B4B4B" alpha="100" stop="0" />
+                <color rgb="0x3C3C3C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+                <color rgb="0x494949" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+                <color rgb="0x363636" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9C9C9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x161616" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x252525" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+                <color rgb="0x0A0A0A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+                <color rgb="0x292929" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4C4C4C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns10110010001">
+      <string id="three_image_items">items</string>
+      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">EXIT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">MAIN MENU</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">COMPLETE COURSE</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6gupKTSxOhS" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gupKTSxOhS.61Hl9DwI28W" displaytext="Main Menu" expand="false" type="slide" />
+            <slidelink slideid="_player.6gupKTSxOhS.5l8V0G3E6im" displaytext="End Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6gupKTSxOhS.5oG1nrifcpL" displaytext="Start" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6HJaA6eYCjx" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6HJaA6eYCjx.6eab4Mxt60g" displaytext="What is an Alarm System?" expand="false" type="slide" />
+            <slidelink slideid="_player.6HJaA6eYCjx.5uDTArXSf5I" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HJaA6eYCjx.62mwS4JhXe0" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HJaA6eYCjx.5ZISR4qGUbY" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HJaA6eYCjx.64LQVF0PNos" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6HJaA6eYCjx.6GopPxjBON2" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6mmCLJgaLGS" displaytext="Components" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6mmCLJgaLGS.6W0fsJugLvk" displaytext="Components of Fire Alarm System" expand="false" type="slide" />
+            <slidelink slideid="_player.6mmCLJgaLGS.5pE0vuCcwcL" displaytext="System Components Lightbox" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63dK3hBCvxc" displaytext="Hardwire vs Wireless" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63dK3hBCvxc.6j3qXBjM0va" displaytext="Wired vs Wireless" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5eFaooX6kxW" displaytext="Control Panel Wiring Basics" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5eFaooX6kxW.6PQwMp9fqdE" displaytext="Control Panel Wiring Basics" expand="false" type="slide" />
+            <slidelink slideid="_player.5eFaooX6kxW.691uT7s0xV5" displaytext="Wiring" expand="false" type="slide" />
+            <slidelink slideid="_player.5eFaooX6kxW.6BOJMYbCvVH" displaytext="Installation" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6DuF3GQAn5y" displaytext="Designing Alarm System" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DuF3GQAn5y.67yIc6KrWYO" displaytext="Designing Alarm System" expand="false" type="slide" />
+            <slidelink slideid="_player.6DuF3GQAn5y.6h5KHzdDBPN" displaytext="Designing" expand="false" type="slide" />
+            <slidelink slideid="_player.6DuF3GQAn5y.5seznFnAYtX" displaytext="Planning" expand="false" type="slide" />
+            <slidelink slideid="_player.6DuF3GQAn5y.64uPRA9VFvi" displaytext="Coverage &amp;amp; Best Practices" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hfJKrh4O5g" displaytext="Keypad in Action" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hfJKrh4O5g.6EQ8QT993YW" displaytext="2 Keypad Arm / Disarm" expand="false" type="slide" />
+            <slidelink slideid="_player.6hfJKrh4O5g.5ovn6f0Dm2f" displaytext="Keypad Features in Action" expand="false" type="slide" />
+            <slidelink slideid="_player.6hfJKrh4O5g.5YJxApEIjXf" displaytext="1 Keypad Tour" expand="false" type="slide" />
+            <slidelink slideid="_player.6hfJKrh4O5g.6dIuzhgV9Vi" displaytext="3 Entry / Exit Delay" expand="false" type="slide" />
+            <slidelink slideid="_player.6hfJKrh4O5g.6hyhTb3rCBQ" displaytext="4 Cancel / Verify" expand="false" type="slide" />
+            <slidelink slideid="_player.6hfJKrh4O5g.5lSBSDRrD0C" displaytext="5 Shortcut Keys" expand="false" type="slide" />
+            <slidelink slideid="_player.6hfJKrh4O5g.5ytBOSFbjCN" displaytext="6 Proximity Devices and Fobs" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="24-Hour Zone">A 24-hour zone is active and functioning 24 hours per day (even when the alarm system is disarmed). Examples include smoke or carbon monoxide detectors, panic buttons, and low temperature sensors.</term>
+      <term title="Access Code">A code that home security system users can use to arm and disarm their security systems. Access codes are usually four digit codes and can be individualized to specific users such as maids and children.</term>
+      <term title="Arming">Arming an alarm system means turning on the system so that it is actively monitoring the home. Some home security systems allow for full or partial arming of the system. For instance, if your bedrooms are upstairs, some systems allow for the arming of only the downstairs area of the house, so you are free to move around upstairs.</term>
+      <term title="Arming Away">Away arming refers to arming the home security system completely so that the entire home is protected when the homeowners leave the house. Generally, this means that all of the motion detectors are activated.</term>
+      <term title="Arming Stay">Stay arming is a method of arming the house alarm system when the homeowner intends to stay at home. This type of arming will activate the exterior sensors of the home such as doors and windows but will not arm the interior components of the home security system such as interior motion detectors.</term>
+      <term title="Automated Security Systems">Security systems that, once armed, are designed to alert or warn the owner and Police Department, Fire Department, and Medical Responders, both audibly on the premises and remotely by phone, text or email, in case of a potential threat, break-in, fire or medical emergency. Automated security systems are customizable and come with a variety of security options to meet your specific needs.</term>
+      <term title="Battery Back-Up">A back-up power source that powers your security system in the event that the main power to your home or business fails. A battery back-up is intended for temporary use (24 to 48 hours) and ensures the continual operation of your security system during a power failure.</term>
+      <term title="Bell">This term is used in the security system industry to refer to any sound made by the device, rarely are these devices actually bells. They are most often sirens that either speak or make a loud noise to indicate that the alarm is armed or that the alarm has been set off. The term bell originates from the primitive home alarm systems which actually did use bells on the outside of the building.</term>
+      <term title="Bell Cut Off">The term bell cut off refers to the amount of time that a “bell” will ring before it shuts off automatically. This may seem counter-intuitive, however, many areas require cut off times of five to ten minutes after the alarm has sounded in order to prevent nuisance noise complaints.</term>
+      <term title="Burglar Alarm">A loud warning signal produced by an electronic sound designed to alert the user, neighbors, home security monitoring system and/or police to a specific danger. Security sensors, often used to indicate the opening of a door or window or detect motion, are connected to a control unit and sound the burglar alarm if they are triggered.</term>
+      <term title="Burglary or Break-in">When a person unlawfully enters a residence, car, office or other enclosed property with the use of even a small amount of force and without consent. If the intent was to commit a crime, it could be considered burglary.</term>
+      <term title="Bypass">This term is in reference to the ability to deactivate specific zones of the building or home before arming the system. Bypassing allows for certain areas of the home to be unmonitored while the rest of the home is monitored.</term>
+      <term title="Carbon Monoxide Detector (CO Detector)">A device that detects the presence of carbon monoxide (CO) gas in order to prevent injury or death from carbon monoxide poisoning. Carbon monoxide is a colorless and odorless compound produced by incomplete combustion. A CO detector is designed to measure CO levels over time and sound an alarm before dangerous levels can cause harm to people. The Carbon Monoxide Detector gives people adequate warning to safely ventilate the area or evacuate. Some system-connected detectors also alert a central monitoring service that can dispatch emergency services if necessary.</term>
+      <term title="Central Station">The term “central station” is used interchangeably with the term “monitoring center.” This refers to the location that alarm monitoring companies use to monitor alarm systems. There are a number of ways that personal home security systems can communicate with central stations including telephone lines, broadband internet or cellular communication. This central monitoring station is responsible for contacting the correct emergency services in a timely manner in case of an alarm.</term>
+      <term title="Chime">This refers to the sound that home security systems can be programmed to make whenever a door or window within the home is opened or closed. This type of sound allows for homeowners to monitor comings and goings in the home.</term>
+      <term title="Communicator">This is a module within the home security system that digitally dials into the central station. The communicator is responsible for relaying information about the home that is ascertained by the home security system.</term>
+      <term title="Contacts">These are the small sensors that are placed on doors and windows of the home so that the home security system can monitor whether a door or window is open or closed. The most common type of contact used in modern alarm systems is a magnetic reed switch.</term>
+      <term title="Control Panel">This refers to the main components of the alarm system which contain the backup battery and the main circuit board of the system. These components are contained within an enclosure. In some alarm systems, the keypad is integrated into the control panel as well, but this is not the case with all systems.</term>
+      <term title="Disarm">Disarming a system means turning the system off. This does not mean removing power to the system but it does mean that the system is not actively protecting the home against break-ins or other emergencies. </term>
+      <term title="Door and Window Sensor">These sensors are usually two parts. One sticks to the door or window, while the other sticks to the stationary part of the home. There is a magnetic connection, so when the connection breaks, the alarm knows that the door or window is open.</term>
+      <term title="Door Contacts and Window Contacts">One of the most basic components of a home or business security system, these devices send a notification to your system when a door or window is opened or closed. There are a few different styles typically used by many alarm companies: a recessed contact, hidden in the window track or door jamb; a surface mount contact, which is visible when the door or window is closed; a roller-ball contact, where a spring-loaded ball located in the hinge side of the door jamb is pushed in when the door is closed; and an overhead door contact, designed for overhead garage doors.</term>
+      <term title="Duress Buttons">Duress or hold-up buttons are generally discreetly located near staff that are located in vulnerable positions. When they feel threatened they simply press the button where an alarm is generated and a response will occur.</term>
+      <term title="Entry Delay">A time delay that allows the homeowner a period of time before the alarm triggers due to an event. This is most commonly the period of time that allows for homeowners to get into the home to turn off the alarm system before it sounds. Most systems default to a thirty-second delay.</term>
+      <term title="Exit Delay">This is the delay after an alarm is armed which allows the homeowner to exit the home before the system becomes active. Like the entry delay, this can also be adjusted to meet the homeowners’ specific needs.</term>
+      <term title="Flood Sensor">This component detects the presence of excessive water so that it can alert the monitoring station of a potential flood concern. The flood sensor is often placed near the water heater since that is the most likely area for flooding to occur. Other common places for flood sensors include: in or beside a basement sump pump pits to alert you of a defective or non-functioning pump before your entire finished basement gets flooded; behind the washing machine to alert if a hose has burst.</term>
+      <term title="Freeze Sensor">More commonly known as a “Low temperature sensor”. This element detects temperatures that are approaching freezing, generally close to 40 degrees. This way you are alerted before an actual freeze occurs in the home that could cause damage to pipes or other important parts in your home. It can also detect issues with a furnace that may not be operating correctly.</term>
+      <term title="Glass Break Detectors">Glass Break detectors sense the sound of breaking of glass, and these devices can be an effective deterrent in stopping further unwanted activity as they trigger an alarm at the moment of entry.</term>
+      <term title="Glass break sensor">A sensor used to detect if a pane of glass in a window of a home or business is shattered or broken, or if a splintering of the wood around the window happens. Glass break detectors can come in either single technology or double (dual) technology devices. Single technology listens for the frequency of breaking glass. Double or dual technology devices are designed to detect a ‘thump’ sound followed by a frequency hit, in that precise order, in order to set off the alarm.</term>
+      <term title="Hardwired System">This is a system that is installed using physical wires, often hidden mostly behind the walls of the home. Most older home alarm systems rely on hard wiring where most new systems are gravitating towards wireless or hybrid alarm systems.</term>
+      <term title="Heat detectors">A device that responds to changes in ambient temperature, typically attached to a security alarm system or fire alarm system. Heat detectors are made to complement smoke detectors, and are often placed in rooms where standard smoke detectors are not suitable or allowed, such as laundry rooms, garages, and attics.</term>
+      <term title="Hybrid Alarm System">This is a home security system that utilizes both hardwired and wireless components.</term>
+      <term title="Identity Theft">The crime of one person stealing the personal and identifying information of another person, such as social security number, credit card information, and bank information, usually with a nefarious intent.</term>
+      <term title="Image Sensor">A motion sensor with a built-in camera that can send photos captured when the motion sensor is triggered to your interactive smart device.</term>
+      <term title="Installer Programming">refers to the ability of the installer (who may also be the homeowner who self-installs an alarm system) to set characteristics of the security system that customize and configure it according to the home or business. An example of this is the ability to program the system to define Zone 1 as being a smoke detector, a door contact or a motion detector.</term>
+      <term title="Intruder Alarm Control Panel">The control panel is the central device in any intruder alarm system. All devices are connected back to this electronic device which is programmed to take into account the unique requirements of each business.</term>
+      <term title="Key Pad">Also referred to as a touchpad, the key pad of a home alarm system is the numbered pad on the system that allows for the homeowner to arm, disarm and otherwise communicate with the alarm system. Most key pads have lighted keys and accompanying chimes that sound when keys are pressed.</term>
+      <term title="Keypad">The user interface device for a home or business security system, typically wall-mounted, usually with an alpha-numeric keypad (a set of buttons arranged in a square, similar to the standard telephone touchpad). A keypad controls the functions of an alarm system.</term>
+      <term title="LCD Keypad">Control LCD keypads are usually located at entry and exit points. They are used to arm and disarm the intruder alarm panel and provide status information regarding the current state of the panel and devices.</term>
+      <term title="Light Activation">A system sensor connected to indoor and/or outdoor lights, weather-sealed for outdoor use, to controls the user’s light activation. When the sensor is activated, the lights will illuminate when someone enters a detected zone. Some systems may use Z-wave technology so they can be turned on with a remote control. Light activation sensors are often used as an effective deterrent to prevent crime.</term>
+      <term title="Management Software">Management software packages enable the convenience of configuring and running audit reports of your intruder alarm system from your desktop PC. Software can be provided to
+display customised maps, time and attendance and specific activity reports.</term>
+      <term title="Master Code">A master code is the main code used for an alarm system that the homeowner uses to arm and disarm the home security system. The master code for an alarm system has the ability to control other sub-codes of the system. The master code, like the access code is usually a four digit code.</term>
+      <term title="Memory">As with other electronic devices, alarm systems can have built-in memory. This memory is used to store information about the most recent alarm events that have taken place in the home. </term>
+      <term title="Motion Sensor">These usually detect motion based on body heat in a 90-degree angle and generally up to 45 feet away. Every company's motion sensors differ, so it is best to read your specific instructions for your system to ensure maximum coverage.
+</term>
+      <term title="Motion Sensor Light">A light with a sensor which detects movement. When movement is detected the light will illuminate. Motion sensor lights can be used indoors or outdoors and are often used for home security to deter burglars and illuminate any illicit activity.</term>
+      <term title="Movement Detectors">There are various movement detectors which can be used to detect motion indoors. Passive infrared detectors are designed sense the presence of body within a range of about 12m, although longer ranges are possible.</term>
+      <term title="Outdoor Lighting">A security lighting system allows residents to use outdoor lights as a deterrent. When lights are properly placed, they can illuminate exterior areas which a criminal may use to hide or to access a residence. Homeowners may benefit from a lighting security system that can detect and recognize movement in an otherwise overlooked and dark surrounding. When positioning security lights, it is important to control light glare, as bright lights can create dark shadows in the negative space, making it harder for eyes to adjust and pick out potential intruders hiding in the dark spots. Working with trained installation technicians can help minimize light glare.</term>
+      <term title="Panel">The panel of a home alarm system is the box or "can" that contains all of the components of the home alarm system such as the backup battery and the main circuit board. Most often the panel of the home alarm system is located in a basement or in a coat closet of the home.</term>
+      <term title="Panic Button">An emergency button that, when pressed, triggers an alarm system and sends a signal to a central monitoring station which can alert emergency services.</term>
+      <term title="Reed Switches">Are installed on the doors and windows on the perimeter of the premises to detect a forced entry and to ensure the premises are properly closed before arming the intruder system.</term>
+      <term title="Security Monitoring">If any of the home security sensors or detectors are set off while your home security system is armed, an emergency signal is transmitted to a central monitoring station via phone lines, internet lines, or cellular towers. Upon receiving the signal, a trained professional will notify the appropriate authorities.</term>
+      <term title="Security System">The term "security system" is used interchangeably with the term "alarm system" and refers to all components of the system that protect the home.
+</term>
+      <term title="Smoke Detector">A device used to detect smoke, typically as an indicator of fire. Household detectors are also known as smoke alarms and generally sound an audible and/or visual alarm to provide notification of the possible emergency event.</term>
+      <term title="Test Mode">An alarm system owner can call their monitoring company and have them put the system in test mode. Once in test mode, the owner can set off the alarm and then call the monitoring station to make sure they received the signal.</term>
+      <term title="Theft Protection">A security method designed to protect against having personal property taken without authorization or to reduce the odds of a crime being committed.</term>
+      <term title="Two-Way Keypad">A device that will let a person arm and disarm an alarm system from inside or outside a residence. It also activates an audio connection to a central monitoring center in the event that an alarm is triggered.</term>
+      <term title="User Programming">refers to the ability of the homeowner to set behavioral characteristics of the home security system. An example of this is the ability to program the system to chime or not chime when doors and windows are opened.
+</term>
+      <term title="Vibration Detectors">Vibration alarms are installed on walls, windows and secure containers and detect the minute movements that occur when an intruder attempts to penetrate the surface and gain entry.</term>
+      <term title="Voice Dialer">This component will automatically call into telephone numbers that are programmed into the system. After calling the numbers, the voice dialer will play a recorded message (or a live person will be on the line) once the home alarm system has been triggered to notify the individual answering the number of the event that has been triggered. New systems also have the ability to send text messages and emails in alarm situations.</term>
+      <term title="Wireless Alarm System">A wireless alarm system depends upon radio frequency to transmit and receive signals from the home alarm system. These types of systems are easier to install and generally preferred by homeowners because they do not involve running wires in the home. All of the sensors are wireless as well and these components can be used as additions to wired alarm systems to create a hybrid alarm setup.</term>
+      <term title="Wireless Home Security">A home security system that protects a home from theft, fire, and other emergencies without the invasive installation of running wires through walls and into the attic. Wireless home security systems do, however, require the installation of wireless sensors placed around doors and windows and throughout the home or business.</term>
+      <term title="Zone">This term is used to refer to an area of the home as it is "seen" by the home alarm system. This type of area is generally determined by numbers and is mapped out by alarm components like the sensors in a particular area of the home. Each zone is specifically defined by the alarm panel's "reaction" to the sensors on the zone.  A "24-HOUR FIRE ZONE" for a smoke detector will pulse the alarm's siren(s) when activated, at any time, whether or not the alarm system is armed.  Other common alarm panel zone definitions, such as "DELAY ZONE", "INSTANT ZONE" or "INTERIOR ZONE" have different "reactions" from the alarm panel when these zones are "tripped" or activated.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
